@@ -1,0 +1,32 @@
+{
+  "name": "sunnylanding",  //название проекта
+  "version": "1.0.0",
+  "description": "Landing page", //описание проекта
+  "main": "index.html", //главный файл(начальный файл)
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "sunny",
+    "landing"
+  ],
+  "author": "ArtemKhairov", //автор 
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.26.12",
+    "del": "^5.1.0", //удаляет какие-либо файлы
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1", //установка вендорных префиксов
+    "gulp-clean-css": "^4.3.0", //проверка css
+    "gulp-file-include": "^2.2.2", //включает какие-либо файлы 
+    "gulp-fonter": "^0.3.0", 
+    "gulp-group-css-media-queries": "^1.2.2", //группирует все медиа запросы в одном месте
+    "gulp-imagemin": "^7.1.0", //сжатие изображений 
+    "gulp-rename": "^2.0.0", //меняет название изображений
+    "gulp-sass": "^4.1.0", // sass scss
+    "gulp-ttf2woff": "^1.1.1", //шрифты
+    "gulp-ttf2woff2": "^3.0.0", //шрифты тоже
+    "gulp-uglify-es": "^2.0.0" //проверка js кода
+    //gulp-pngquant лучшее сжатие png изображений
+  }
+}
