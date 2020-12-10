@@ -1,8 +1,8 @@
 {
-  "name": "sunnylanding",  //название проекта
+  "name": "gulp4frontend",  
   "version": "1.0.0",
-  "description": "Landing page", //описание проекта
-  "main": "index.html", //главный файл(начальный файл)
+  "description": "Landing page", 
+  "main": "index.html", 
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,23 +10,23 @@
     "sunny",
     "landing"
   ],
-  "author": "ArtemKhairov", //автор 
+  "author": "ArtemKhairov", 
   "license": "ISC",
   "devDependencies": {
     "browser-sync": "^2.26.12",
-    "del": "^5.1.0", //удаляет какие-либо файлы
+    "del": "^5.1.0", 
     "gulp": "^4.0.2",
-    "gulp-autoprefixer": "^7.0.1", //установка вендорных префиксов
-    "gulp-clean-css": "^4.3.0", //проверка css
-    "gulp-file-include": "^2.2.2", //включает какие-либо файлы 
+    "gulp-autoprefixer": "^7.0.1", 
+    "gulp-clean-css": "^4.3.0",
+    "gulp-file-include": "^2.2.2", 
     "gulp-fonter": "^0.3.0", 
-    "gulp-group-css-media-queries": "^1.2.2", //группирует все медиа запросы в одном месте
-    "gulp-imagemin": "^7.1.0", //сжатие изображений 
-    "gulp-rename": "^2.0.0", //меняет название изображений
-    "gulp-sass": "^4.1.0", // sass scss
-    "gulp-ttf2woff": "^1.1.1", //шрифты
-    "gulp-ttf2woff2": "^3.0.0", //шрифты тоже
-    "gulp-uglify-es": "^2.0.0" //проверка js кода
-    //gulp-pngquant лучшее сжатие png изображений
+    "gulp-group-css-media-queries": "^1.2.2", 
+    "gulp-imagemin": "^7.1.0", 
+    "gulp-rename": "^2.0.0", 
+    "gulp-sass": "^4.1.0", 
+    "gulp-ttf2woff": "^1.1.1", 
+    "gulp-ttf2woff2": "^3.0.0",
+    "gulp-uglify-es": "^2.0.0" 
+   
   }
 }
